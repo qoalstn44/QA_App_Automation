@@ -1,0 +1,300 @@
+{
+  "users": [
+    {
+      "juwan": {
+        "platformName": "iOS",
+        "platformVersion": "17.4",
+        "deviceName": "iPhone 15",
+        "udid": "00008120-001249201E98A01E",
+        "bundleId": "com.mobiletoong.TravelWallet",
+        "automationName": "XCUITest"
+      },
+      "juwan2": {
+        "platformName": "iOS",
+        "platformVersion": "17.4",
+        "deviceName": "iPhone 15",
+        "udid": "00008120-001118C12EE9A01E",
+        "bundleId": "com.mobiletoong.TravelWallet",
+        "automationName": "XCUITest"
+      },
+      "yewon": {
+        "platformName": "iOS",
+        "platformVersion": "17.6.1",
+        "deviceName": "iPhone 15",
+        "udid": "00008120-001E1C540EE0A01E",
+        "bundleId": "com.mobiletoong.TravelWallet",
+        "automationName": "XCUITest"
+      }
+    }
+  ],
+  "onboarding": [
+    {
+      "number1": [
+        {
+          "service_jeon_agree_xpath": "(//XCUIElementTypeStaticText[@name='모두 동의할게요.'])[2]",
+          "next_xpath": "//XCUIElementTypeButton[@name=\"다음\"]",
+          "receive_marketing_xpath": "//XCUIElementTypeButton[@name=\"확인\"]",
+          "name_xpath": "//XCUIElementTypeTextField[@value='이름 입력']",
+          "rrn_first_xpath": "//XCUIElementTypeTextField[@value=\"●●●●●●\"]",
+          "rrn_second_xpath": "//XCUIElementTypeTextField[@value=\"●\"]",
+          "carrier_xpath": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[3]/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther",
+          "carrier_skt_xpath": "//XCUIElementTypeTable/XCUIElementTypeCell[3]",
+          "phone_xpath": "//XCUIElementTypeTextField[@value='휴대폰번호 입력']",
+          "sns_auth_xpath": "//XCUIElementTypeStaticText[@name=\"SMS 인증을 할 수 없나요?\"]",
+          "send_money_xpath": "//XCUIElementTypeButton[@name=\"1원 보내기\"]",
+          "penny1_xpath": "//XCUIElementTypeKey[@name=\"1\"]",
+          "penny2_xpath": "//XCUIElementTypeKey[@name=\"2\"]",
+          "penny3_xpath": "//XCUIElementTypeKey[@name=\"3\"]",
+          "today_xpath" : "//XCUIElementTypeButton[@name='닫기']",
+          "onboarding_img_popup_xpath" : "//XCUIElementTypeStaticText[@name='닫기']",
+          "sms_re_request_xpath" : "//XCUIElementTypeStaticText[@name='재요청']",
+          "img_popup_close_xpath" : "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/btnCancel']"
+        }
+      ]
+    }
+  ],
+  "charge": [
+    {
+      "number1": [
+        {
+          "charge_xpath": "//XCUIElementTypeButton[@name=\"충전하기\"]"
+        }
+      ],
+      "number2": [
+        {
+          "charge_continent_europe": {
+            "charge_continent_europe_xpath": "//XCUIElementTypeOther[@name=\"유럽\"]",
+            "charge_country_NOK_xpath": "//XCUIElementTypeStaticText[@name=\"노르웨이 NOK\"]",
+            "charge_country_DKK_xpath": "//XCUIElementTypeStaticText[@name=\"덴마크 DKK\"]",
+            "charge_country_SEK_xpath": "//XCUIElementTypeStaticText[@name=\"스웨덴 SEK\"]",
+            "charge_country_CHF_xpath": "//XCUIElementTypeStaticText[@name=\"스위스 CHF\"]",
+            "charge_country_ISK_xpath": "//XCUIElementTypeStaticText[@name=\"아이슬란드 ISK\"]",
+            "charge_country_GBP_xpath": "//XCUIElementTypeStaticText[@name=\"영국 GBP\"]",
+            "charge_country_EUR_xpath": "//XCUIElementTypeStaticText[@name=\"유럽 EUR\"]",
+            "charge_country_CZK_xpath": "//XCUIElementTypeStaticText[@name=\"체코 CZK\"]",
+            "charge_country_TRY_xpath": "//XCUIElementTypeStaticText[@name=\"튀르키예 TRY\"]",
+            "charge_country_PLN_xpath": "//XCUIElementTypeStaticText[@name=\"폴란드 PLN\"]",
+            "charge_country_HUF_xpath": "//XCUIElementTypeStaticText[@name=\"헝가리 HUF\"]"
+          },
+          "charge_continent_northamerica": {
+            "charge_continent_northamerica_xpath": "//XCUIElementTypeOther[@name=\"북미\"]",
+            "charge_country_MXN_xpath": "//XCUIElementTypeStaticText[@name=\"멕시코 MXN\"]",
+            "charge_country_USD_xpath": "//XCUIElementTypeStaticText[@name=\"미국 USD\"]",
+            "charge_country_CAD_xpath": "//XCUIElementTypeStaticText[@name=\"캐나다 CAD\"]"
+          },
+          "charge_continent_southamerica": {
+            "charge_continent_southamerica_xpath": "//XCUIElementTypeOther[@name=\"남미\"]",
+            "charge_country_BRL_xpath": "//XCUIElementTypeStaticText[@name=\"브라질 BRL\"]",
+            "charge_country_PEN_xpath": "//XCUIElementTypeStaticText[@name=\"페루 PEN\"]"
+          },
+          "charge_continent_oceania": {
+            "charge_continent_oceania_xpath": "//XCUIElementTypeOther[@name=\"오세아니아\"]",
+            "charge_country_NZD_xpath": "//XCUIElementTypeStaticText[@name=\"뉴질랜드 NZD\"]",
+            "charge_country_XPF_xpath": "//XCUIElementTypeStaticText[@name=\"프랑스령 폴리네시아(타히티) XPF\"]",
+            "charge_country_FJD_xpath": "//XCUIElementTypeStaticText[@name=\"피지 FJD\"]",
+            "charge_country_AUD_xpath": "//XCUIElementTypeStaticText[@name=\"호주 AUD\"]"
+          },
+          "charge_continent_africa": {
+            "charge_continent_africa_xpath": "//XCUIElementTypeOther[@name=\"아프리카\"]",
+            "charge_country_ZAR_xpath": "//XCUIElementTypeStaticText[@name=\"남아프리카공화국 ZAR\"]",
+            "charge_country_MUR_xpath": "//XCUIElementTypeStaticText[@name=\"모리셔스 MUR\"]",
+            "charge_country_EGP_xpath": "//XCUIElementTypeStaticText[@name=\"이집트 EGP\"]",
+            "charge_country_KES_xpath": "//XCUIElementTypeStaticText[@name=\"케냐 KES\"]"
+          },
+          "charge_continent_asia": {
+            "charge_continent_asia_xpath": "//XCUIElementTypeOther[@name=\"아시아\"]",
+            "charge_country_NPR_xpath": "//XCUIElementTypeStaticText[@name=\"네팔 NPR\"]",
+            "charge_country_TWD_xpath": "//XCUIElementTypeStaticText[@name=\"대만 TWD\"]",
+            "charge_country_KRW_xpath": "//XCUIElementTypeStaticText[@name=\"대한민국 KRW\"]",
+            "charge_country_LAK_xpath": "//XCUIElementTypeStaticText[@name=\"라오스 LAK\"]",
+            "charge_country_MOP_xpath": "//XCUIElementTypeStaticText[@name=\"마카오 MOP\"]",
+            "charge_country_MYR_xpath": "//XCUIElementTypeStaticText[@name=\"말레이시아 MYR\"]",
+            "charge_country_MNT_xpath": "//XCUIElementTypeStaticText[@name=\"몽골 MNT\"]",
+            "charge_country_VND_xpath": "//XCUIElementTypeStaticText[@name=\"베트남 VND\"]",
+            "charge_country_SAR_xpath": "//XCUIElementTypeStaticText[@name=\"사우디아라비아 SAR\"]",
+            "charge_country_SGD_xpath": "//XCUIElementTypeStaticText[@name=\"싱가포르 SGD\"]",
+            "charge_country_AED_xpath": "//XCUIElementTypeStaticText[@name=\"아랍에미리트 AED\"]",
+            "charge_country_UZS_xpath": "//XCUIElementTypeStaticText[@name=\"우즈베키스탄 UZS\"]",
+            "charge_country_INR_xpath": "//XCUIElementTypeStaticText[@name=\"인도 INR\"]",
+            "charge_country_IDR_xpath": "//XCUIElementTypeStaticText[@name=\"인도네시아 IDR\"]",
+            "charge_country_JPY_xpath": "//XCUIElementTypeStaticText[@name=\"일본 JPY\"]",
+            "charge_country_CNY_xpath": "//XCUIElementTypeStaticText[@name=\"중국 CNY\"]",
+            "charge_country_KZT_xpath": "//XCUIElementTypeStaticText[@name=\"카자흐스탄 KZT\"]",
+            "charge_country_QAR_xpath": "//XCUIElementTypeStaticText[@name=\"카타르 QAR\"]",
+            "charge_country_KHR_xpath": "//XCUIElementTypeStaticText[@name=\"캄보디아 KHR\"]",
+            "charge_country_THB_xpath": "//XCUIElementTypeStaticText[@name=\"태국 THB\"]",
+            "charge_country_PHP_xpath": "//XCUIElementTypeStaticText[@name=\"필리핀 PHP\"]",
+            "charge_country_HKD_xpath": "//XCUIElementTypeStaticText[@name=\"홍콩 HKD\"]"
+          }
+        }
+      ],
+      "number3": [
+        {
+          "charge_country_100%_xpath": "//XCUIElementTypeScrollView/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[1]/XCUIElementTypeOther/XCUIElementTypeOther[3]",
+          "charge_country_100%_text": "각 나라의 200만원 한도 100% 금액"
+        }
+      ],
+      "number4": [
+        {
+          "charge_close": "//XCUIElementTypeButton[@name=\"닫기\"]",
+          "charge_completed": "//XCUIElementTypeStaticText[@name=\"충전 완료\"]",
+          "charge_completed_xpath": "//XCUIElementTypeStaticText[@name=\"충전 완료\"]",
+          "Change_exchange_rate_information": "//XCUIElementTypeStaticText[@name=\"환율 정보가 변경되었습니다.\"]",
+          "charge_meeting_post_bottom_sheet_close_xpath" : "(//XCUIElementTypeButton[@name='닫기'])[2]"
+          
+          
+        }
+      ]
+    }
+  ],
+  "refund": [
+    {
+      "number1": [
+        {
+          "refund_my_wllet_xpath": "//XCUIElementTypeTable/XCUIElementTypeCell[3]",
+          "refund_xpath": "//XCUIElementTypeStaticText[@name=\"환불하기\"]",
+          "refund_full_amount_xpath": "//XCUIElementTypeStaticText[@name=\"전액입력\"]",
+          "refund_text": "//XCUIElementTypeStaticText[@name=\"환불 완료\"]",
+          "refund_next_xpath": "//XCUIElementTypeButton[@name=\"환불하기\"]",
+          "refund_completed_xpath": "//XCUIElementTypeStaticText[@name=\"환불 완료\"]",
+          "refund_completed_text_xpath": "//XCUIElementTypeStaticText[@name=\"환불이 정상적으로 완료되었습니다.\"]",
+          "refund_completed_back_button_xpath": "//XCUIElementTypeButton[@name=\"확인\"]",
+          "refund_usage_details_back_button_xpath": "//XCUIElementTypeNavigationBar[@name=\"이용내역\"]/XCUIElementTypeButton[1]"
+        }
+      ],
+      "number2": [
+        {
+          "refund_country_NOK_xpath": "//XCUIElementTypeStaticText[@name='노르웨이']",
+          "refund_country_DKK_xpath": "//XCUIElementTypeStaticText[@name=\"덴마크\"]",
+          "refund_country_SEK_xpath": "//XCUIElementTypeStaticText[@name=\"스웨덴\"]",
+          "refund_country_CHF_xpath": "//XCUIElementTypeStaticText[@name=\"스위스\"]",
+          "refund_country_ISK_xpath": "//XCUIElementTypeStaticText[@name=\"아이슬란드\"]",
+          "refund_country_GBP_xpath": "//XCUIElementTypeStaticText[@name=\"영국\"]",
+          "refund_country_EUR_xpath": "//XCUIElementTypeStaticText[@name=\"유럽\"]",
+          "refund_country_CZK_xpath": "//XCUIElementTypeStaticText[@name=\"체코\"]",
+          "refund_country_TRY_xpath": "//XCUIElementTypeStaticText[@name=\"튀르키예\"]",
+          "refund_country_PLN_xpath": "//XCUIElementTypeStaticText[@name=\"폴란드\"]",
+          "refund_country_HUF_xpath": "//XCUIElementTypeStaticText[@name=\"헝가리\"]",
+          "refund_country_MXN_xpath": "//XCUIElementTypeStaticText[@name=\"멕시코\"]",
+          "refund_country_USD_xpath": "//XCUIElementTypeStaticText[@name=\"미국\"]",
+          "refund_country_CAD_xpath": "//XCUIElementTypeStaticText[@name=\"캐나다\"]",
+          "refund_country_BRL_xpath": "//XCUIElementTypeStaticText[@name=\"브라질\"]",
+          "refund_country_PEN_xpath": "//XCUIElementTypeStaticText[@name=\"페루\"]",
+          "refund_country_NZD_xpath": "//XCUIElementTypeStaticText[@name=\"뉴질랜드\"]",
+          "refund_country_XPF_xpath": "//XCUIElementTypeStaticText[@name=\"프랑스령 폴리네시아(타히티)\"]",
+          "refund_country_FJD_xpath": "//XCUIElementTypeStaticText[@name=\"피지\"]",
+          "refund_country_AUD_xpath": "//XCUIElementTypeStaticText[@name=\"호주\"]",
+          "refund_country_ZAR_xpath": "//XCUIElementTypeStaticText[@name=\"남아공\"]",
+          "refund_country_MUR_xpath": "//XCUIElementTypeStaticText[@name=\"모리셔스\"]",
+          "refund_country_EGP_xpath": "//XCUIElementTypeStaticText[@name=\"이집트\"]",
+          "refund_country_KES_xpath": "//XCUIElementTypeStaticText[@name=\"케냐\"]",
+          "refund_country_NPR_xpath": "//XCUIElementTypeStaticText[@name=\"네팔\"]",
+          "refund_country_TWD_xpath": "//XCUIElementTypeStaticText[@name=\"대만\"]",
+          "refund_country_KRW_xpath": "//XCUIElementTypeStaticText[@name=\"대한민국\"]",
+          "refund_country_LAK_xpath": "//XCUIElementTypeStaticText[@name=\"라오스\"]",
+          "refund_country_MOP_xpath": "//XCUIElementTypeStaticText[@name=\"마카오\"]",
+          "refund_country_MYR_xpath": "//XCUIElementTypeStaticText[@name=\"말레이시아\"]",
+          "refund_country_MNT_xpath": "//XCUIElementTypeStaticText[@name=\"몽골\"]",
+          "refund_country_VND_xpath": "//XCUIElementTypeStaticText[@name=\"베트남\"]",
+          "refund_country_SAR_xpath": "//XCUIElementTypeStaticText[@name=\"사우디아라비아\"]",
+          "refund_country_SGD_xpath": "//XCUIElementTypeStaticText[@name=\"싱가포르\"]",
+          "refund_country_AED_xpath": "//XCUIElementTypeStaticText[@name=\"아랍에미리트\"]",
+          "refund_country_UZS_xpath": "//XCUIElementTypeStaticText[@name=\"우즈베키스탄\"]",
+          "refund_country_INR_xpath": "//XCUIElementTypeStaticText[@name=\"인도\"]",
+          "refund_country_IDR_xpath": "//XCUIElementTypeStaticText[@name=\"인도네시아\"]",
+          "refund_country_JPY_xpath": "//XCUIElementTypeStaticText[@name=\"일본\"]",
+          "refund_country_CNY_xpath": "//XCUIElementTypeStaticText[@name=\"중국\"]",
+          "refund_country_KZT_xpath": "//XCUIElementTypeStaticText[@name=\"카자흐스탄\"]",
+          "refund_country_QAR_xpath": "//XCUIElementTypeStaticText[@name=\"카타르\"]",
+          "refund_country_KHR_xpath": "//XCUIElementTypeStaticText[@name=\"캄보디아\"]",
+          "refund_country_THB_xpath": "//XCUIElementTypeStaticText[@name=\"태국\"]",
+          "refund_country_PHP_xpath": "//XCUIElementTypeStaticText[@name=\"필리핀\"]",
+          "refund_country_HKD_xpath": "//XCUIElementTypeStaticText[@name=\"홍콩\"]"
+        }        
+      ]
+    }
+  ],
+  "card": [
+    {
+      "number1": [
+        {
+          "create_a_wallet_xpath": "//XCUIElementTypeButton[@name=\"월렛 만들기\"]",
+          "career_choice_text_xpath": "//XCUIElementTypeTextField[@value=\"직업을 선택해주세요.\"]",
+          "salary_earner_xpath": "//XCUIElementTypeTable/XCUIElementTypeCell[1]",
+          "card_password_xpath": "//XCUIElementTypeTextField[@value=\"비밀번호\"]",
+          "card_password_number_0_xpath": "//XCUIElementTypeStaticText[@name=\"0\"]",
+          "card_password_number_1_xpath": "//XCUIElementTypeStaticText[@name=\"1\"]",
+          "card_full_agreement_xpath": "//XCUIElementTypeStaticText[@name=\"전체동의\"]",
+          "card_complete_xpath": "//XCUIElementTypeButton[@name=\"완료\"]",
+          "card_application_xpath": "//XCUIElementTypeButton[@name=\"카드 신청\"]",
+          "card_application_banner_xpath": "//XCUIElementTypeStaticText[@name=\"해외여행 떠나기 전에\"]",
+          "card_application_completed_xpath": "//XCUIElementTypeStaticText[@name=\"신청 완료\"]",
+          "card_cancel_application_xpath": "//XCUIElementTypeButton[@name=\"신청 취소\"]",
+          "card_cancel_application_popup_xpath": "(//XCUIElementTypeButton[@name=\"신청 취소\"])[2]",
+          "card_empty_view_text_xpath": "//XCUIElementTypeStaticText[@name=\"보유중인 카드가 없습니다.\"]",
+          "card_close_button_xpath": "(//XCUIElementTypeButton[@name=\"닫기\"])[2]",
+          "card_back_button_xpath": "//XCUIElementTypeNavigationBar[@name=\"카드관리\"]/XCUIElementTypeButton"
+        }
+      ]
+    }
+  ],
+  "my": [
+    {
+      "number1": [
+        {
+          "my_tab_xpath": "//XCUIElementTypeButton[@name=\"마이\"]",
+          "my_card_management_xpath": "//XCUIElementTypeStaticText[@name=\"카드관리\"]"
+        }
+      ]
+    }
+  ],
+  "pay": [
+    {
+      "number1": [
+        {
+          "pay_tab_xpath": "//XCUIElementTypeButton[@name=\"페이\"]"
+        }
+      ]
+    }
+  ],
+  "mypage": [
+    {
+      "number1": {
+        "my_tab_xpath": "//XCUIElementTypeButton[@name='더 보기']",
+        "my_info_manage_xpath": "//XCUIElementTypeButton[@name='내 정보 관리']",
+        "complete_xpath": "//XCUIElementTypeButton[@name='완료']",
+        "confirm_xpath": "//XCUIElementTypeButton[@name='확인']",
+        "update_EnglishName_xpath": "(//XCUIElementTypeButton[@name='수정'])[1]",
+        "update_Korean_Address_xpath": "(//XCUIElementTypeButton[@name='수정'])[2]",
+        "update_English_Address_xpath": "(//XCUIElementTypeButton[@name='수정'])[3]"
+      },
+      "number2": {
+        "text_xpath": "//XCUIElementTypeStaticText",
+        "EnglishName_xpath": "//XCUIElementTypeTable/XCUIElementTypeCell[4]",
+        "Korean_Address_xpath": "//XCUIElementTypeTable/XCUIElementTypeCell[5]",
+        "English_Address_xpath": "//XCUIElementTypeTable/XCUIElementTypeCell[6]"
+      },
+      "number3": {
+        "textfield_1_xpath": "(//XCUIElementTypeTextField)[1]",
+        "textfield_2_xpath": "(//XCUIElementTypeTextField)[2]",
+        "textfield_3_xpath": "(//XCUIElementTypeTextField)[3]",
+        "textfield_4_xpath": "(//XCUIElementTypeTextField)[4]"
+      }
+    }
+  ],
+  "foreign_currency_exchange": [
+    {
+      "number1": [
+        {
+        "foreign_currency_exchange_xpath": "//XCUIElementTypeImage[@name='enabledExchange']", 
+        "total_amount_of_foreign_currency_exchange_xpath": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]//XCUIElementTypeButton[1]",
+        "foreign_currency_exchange_country_xpath": "//XCUIElementTypeScrollView/XCUIElementTypeOther[1]/XCUIElementTypeOther[4]/XCUIElementTypeButton[1]",
+        "exchange_next_button_xpath" : "//XCUIElementTypeButton[@name='환전하기']",
+        "exchange_button_xpath": "//XCUIElementTypeButton[@name='환전']",
+        "exchange_pass_fail_xpath": "//XCUIElementTypeWindow/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther//XCUIElementTypeStaticText[1]",
+        "final_confirmation_button_for_foreign_currency_exchange_xpath": "//XCUIElementTypeButton[@name='확인']"
+        }
+      ]
+    }
+  ]
+}

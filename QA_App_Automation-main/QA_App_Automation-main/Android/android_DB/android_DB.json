@@ -1,0 +1,387 @@
+{
+  "users": [
+    {
+      "juwan": {
+        "appium:deviceName": "R5CX10LH20M",
+        "platformName": "Android",
+        "appium:automationName": "UiAutomator2",
+        "appium:appActivity": "com.mobiletoong.TravelWallet"
+      },
+      "yewon": {
+        "appium:platformName": "Android",
+        "appium:platformVersion": "14",
+        "appium:deviceName": "R3CX40T1LDT",
+        "appium:automationName": "UiAutomator2"
+      }
+    }
+  ],
+  "onboarding": [
+    {
+      "number1": [
+        {
+          "service_jeon_agree_id": "com.mobiletoong.travelwallet:id/btn_select_all",
+          "service_jeon_agree_xpath": "//android.widget.LinearLayout[@resource-id=\"com.mobiletoong.travelwallet:id/btn_select_all\"]",
+          "service_jeon_agree_text": "서비스 이용약관 전체동의",
+
+          "img_popup_xpath" : "//android.widget.ImageView[@resource-id='com.mobiletoong.travelwallet:id/imgPopup']",
+
+          "sms_re_request_xpath" : "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/bt_action']",
+
+          "img_popup_close_xpath" : "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/btnCancel']",
+
+
+          "next_id": "com.mobiletoong.travelwallet:id/btn_next",
+          "next_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btn_next\"]",
+          "next_text": "약관 동의 다음",
+
+          "receive_marketing_id": "com.mobiletoong.travelwallet:id/txtConfirm",
+          "receive_marketing_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/txtConfirm\"]",
+          "receive_marketing_text": "마케팅 수신 동의 확인",
+
+          "name_id": "com.mobiletoong.travelwallet:id/edittext",
+          "name_xpath": "//android.widget.EditText[@resource-id='com.mobiletoong.travelwallet:id/edit_text' and @text='이름입력']",
+
+          "rrn_first_id": "com.mobiletoong.travelwallet:id/etRrnFirst",
+          "rrn_second_id": "com.mobiletoong.travelwallet:id/etRrnSecond",
+
+          "carrier_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rv_options\"]/android.view.ViewGroup[3]",
+
+          "phone_id": "com.mobiletoong.travelwallet:id/edittext",
+          "phone_xpath": "//android.widget.EditText[@resource-id='com.mobiletoong.travelwallet:id/edit_text' and @text='휴대폰번호 입력']",
+
+          "next_button_id": "com.mobiletoong.travelwallet:id/btnNext",
+          "next_button_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btnNext\"]",
+          "next_button_text": "다음",
+
+          "sns_auth_id": "com.mobiletoong.travelwallet:id/txtSnsAuth",
+          "sns_auth_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/txtSnsAuth\"]",
+          "sns_auth_text": "SMS 인증을 할 수 없나요?",
+
+          "send_money_id": "com.mobiletoong.travelwallet:id/btnSendMoney",
+          "send_money_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btnSendMoney\"]",
+          "send_money_text": "1원 보내기",
+
+          "penny1_id": "com.mobiletoong.travelwallet:id/tv_penny1",
+          "penny2_id": "com.mobiletoong.travelwallet:id/tv_penny2",
+          "penny3_id": "com.mobiletoong.travelwallet:id/tv_penny3",
+
+          "cancel_fingerprint_recognition_id": "com.samsung.android.biometrics.app.setting:id/button_negative",
+          "cancel_fingerprint_recognition_xpath": "//android.widget.Button[@resource-id=\"com.samsung.android.biometrics.app.setting:id/button_negative\"]",
+          "cancel_fingerprint_recognition_text": "취소",
+          "today_xpath" : "//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/btnClose']"
+
+        }
+      ]
+    }
+  ],
+  "charge": [
+    {
+      "number1": [
+        {
+          "charge_id": "com.mobiletoong.travelwallet:id/btn_charge",
+          "charge_xpath": "//android.widget.FrameLayout[@resource-id=\"com.mobiletoong.travelwallet:id/btn_charge\"]/android.widget.LinearLayout",
+          "charge_text": "충전하기"
+        }
+      ],
+      "number2": [
+        {
+          "charge_continent_europe": {
+            "charge_continent_europe_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rvCountry\"]/android.view.ViewGroup[1]",
+            "charge_country_NOK_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"노르웨이\"]",
+            "charge_country_DKK_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"덴마크\"]",
+            "charge_country_SEK_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"스웨덴\"]",
+            "charge_country_CHF_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"스위스\"]",
+            "charge_country_ISK_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"아이슬란드\"]",
+            "charge_country_GBP_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"영국\"]",
+            "charge_country_EUR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"유럽\"]",
+            "charge_country_CZK_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"체코\"]",
+            "charge_country_TRY_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"튀르키예\"]",
+            "charge_country_PLN_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"폴란드\"]",
+            "charge_country_HUF_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"헝가리\"]"
+          },
+          "charge_continent_northamerica": {
+            "charge_continent_northamerica_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rvCountry\"]/android.view.ViewGroup[3]",
+            "charge_country_MXN_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"멕시코\"]",
+            "charge_country_USD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"미국\"]",
+            "charge_country_CAD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"캐나다\"]"
+          },
+          "charge_continent_southamerica": {
+            "charge_continent_southamerica_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rvCountry\"]/android.view.ViewGroup[4]",
+            "charge_country_BRL_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"브라질\"]",
+            "charge_country_PEN_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"페루\"]"
+          },
+          "charge_continent_oceania": {
+            "charge_continent_oceania_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rvCountry\"]/android.view.ViewGroup[5]",
+            "charge_country_NZD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"뉴질랜드\"]",
+            "charge_country_XPF_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"프랑스령 폴리네시아(타히티)\"]",
+            "charge_country_FJD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"피지\"]",
+            "charge_country_AUD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"호주\"]"
+          },
+          "charge_continent_africa": {
+            "charge_continent_africa_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rvCountry\"]/android.view.ViewGroup[6]",
+            "charge_country_ZAR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"남아공\"]",
+            "charge_country_MUR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"모리셔스\"]",
+            "charge_country_EGP_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"이집트\"]",
+            "charge_country_KES_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"케냐\"]"
+          },
+          "charge_continent_asia": {
+            "charge_continent_asia_xpath": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.mobiletoong.travelwallet:id/rvCountry\"]/android.view.ViewGroup[2]",
+            "charge_country_NPR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"네팔\"]",
+            "charge_country_TWD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"대만\"]",
+            "charge_country_KRW_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"대한민국\"]",
+            "charge_country_LAK_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"라오스\"]",
+            "charge_country_MOP_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"마카오\"]",
+            "charge_country_MYR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"말레이시아\"]",
+            "charge_country_MNT_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"몽골\"]",
+            "charge_country_VND_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"베트남\"]",
+            "charge_country_SAR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"사우디아라비아\"]",
+            "charge_country_SGD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"싱가포르\"]",
+            "charge_country_AED_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"아랍에미리트\"]",
+            "charge_country_UZS_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"우즈베키스탄\"]",
+            "charge_country_INR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"인도\"]",
+            "charge_country_IDR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"인도네시아\"]",
+            "charge_country_JPY_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"일본\"]",
+            "charge_country_CNY_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"중국\"]",
+            "charge_country_KZT_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"카자흐스탄\"]",
+            "charge_country_QAR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"카타르\"]",
+            "charge_country_KHR_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"캄보디아\"]",
+            "charge_country_THB_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"태국\"]",
+            "charge_country_PHP_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"필리핀\"]",
+            "charge_country_HKD_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvCountryName\" and @text=\"홍콩\"]"
+          }
+        }
+      ],
+      "number3": [
+        {
+          "charge_country_100%_id": "com.mobiletoong.travelwallet:id/tvInputInformation",
+          "charge_country_100%_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tvInputInformation\"]",
+          "charge_country_100%_text": "각 나라의 200만원 한도 100% 금액"
+        }
+      ],
+      "number4": [
+        {
+          "charge_close_id": "com.mobiletoong.travelwallet:id/btnClose",
+          "charge_close_xpath": "//android.widget.ImageView[@resource-id=\"com.mobiletoong.travelwallet:id/btnClose\"]",
+          "charge_close_text": "닫기",
+
+          "charge_meeting_post_bottom_sheet_close_xpath" : "//android.widget.ImageView[@resource-id='com.mobiletoong.travelwallet:id/iv_cancel']",
+          "charge_meeting_post_bottom_sheet_close_text" : "모임 게시글 바텀시트",
+
+          "charge_completed_id": "com.mobiletoong.travelwallet:id/textView",
+          "charge_completed_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/textView\"]",
+          "charge_completed_text": "충전 완료",
+
+          "change_exchange_rate_information_completed_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btn_confirm\"]",
+          "change_exchange_rate_information_completed_text": "확인"
+        }
+      ]
+    }
+  ],
+  "refund": [
+    {
+      "number1": [
+        {
+          "refund_my_wllet_xpath": "//androidx.appcompat.widget.LinearLayoutCompat[@resource-id=\"com.mobiletoong.travelwallet:id/container_wallet_list\"]/androidx.appcompat.widget.LinearLayoutCompat",
+          "refund_my_wllet_text": "내 지갑 첫번째 레이블",
+
+          "refund_review_xpath": "//android.widget.Button[@resource-id='com.android.vending:id/0_resource_name_obfuscated' and @text='나중에']",
+          "refund_review_text": "나중에",
+
+          "refund_id": "com.mobiletoong.travelwallet:id/iv_refund",
+          "refund_xpath": "//android.widget.ImageView[@resource-id=\"com.mobiletoong.travelwallet:id/iv_refund\"]",
+          "refund_texts": "환불하기",
+
+          "refund_full_amount_xpath": "//android.widget.FrameLayout[@resource-id=\"com.mobiletoong.travelwallet:id/btn_input_full_amount\"]/android.widget.LinearLayout",
+          "refund_full_amount_text": "전액입력",
+
+          "refund_next_xpath": "//android.widget.FrameLayout[@resource-id=\"com.mobiletoong.travelwallet:id/btn_refund\"]/android.widget.LinearLayout",
+          "refund_next_text": "환불하기",
+
+          "refund_completed_text_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tv_description\"]",
+          "refund_completed_text_text": "환불 완료",
+
+          "refund_completed_back_button_xpath": "//android.widget.FrameLayout[@resource-id='com.mobiletoong.travelwallet:id/btn_confirm']/android.view.ViewGroup",
+          "refund_completed_back_button_text": "확인",
+
+          "refund_fail_back_button_xpath": "//android.widget.FrameLayout[@resource-id='com.mobiletoong.travelwallet:id/btn_confirm']/android.widget.LinearLayout",
+          "refund_fail_back_button_text": "확인",
+
+          "refund_usage_details_back_button_xpath": "//android.widget.ImageView[@resource-id=\"com.mobiletoong.travelwallet:id/iv_left_icon\"]",
+          "refund_usage_details_back_button_text": "뒤로가기",
+
+          "refund_completed_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tv_title\"]",
+          "refund_completed_text": "환불 완료"
+        }
+      ],
+      "number2": [
+        {
+          "refund_country_NOK_xpath": "//android.widget.TextView[@text='노르웨이']",
+          "refund_country_DKK_xpath": "//android.widget.TextView[@text='덴마크']",
+          "refund_country_SEK_xpath": "//android.widget.TextView[@text='스웨덴']",
+          "refund_country_CHF_xpath": "//android.widget.TextView[@text='스위스']",
+          "refund_country_ISK_xpath": "//android.widget.TextView[@text='아이슬란드']",
+          "refund_country_GBP_xpath": "//android.widget.TextView[@text='영국']",
+          "refund_country_EUR_xpath": "//android.widget.TextView[@text='유럽']",
+          "refund_country_CZK_xpath": "//android.widget.TextView[@text='체코']",
+          "refund_country_TRY_xpath": "//android.widget.TextView[@text='튀르키예']",
+          "refund_country_PLN_xpath": "//android.widget.TextView[@text='폴란드']",
+          "refund_country_HUF_xpath": "//android.widget.TextView[@text='헝가리']",
+          "refund_country_MXN_xpath": "//android.widget.TextView[@text='멕시코']",
+          "refund_country_USD_xpath": "//android.widget.TextView[@text='미국']",
+          "refund_country_CAD_xpath": "//android.widget.TextView[@text='캐나다']",
+          "refund_country_BRL_xpath": "//android.widget.TextView[@text='브라질']",
+          "refund_country_PEN_xpath": "//android.widget.TextView[@text='페루']",
+          "refund_country_NZD_xpath": "//android.widget.TextView[@text='뉴질랜드']",
+          "refund_country_XPF_xpath": "//android.widget.TextView[@text='프랑스령 폴리네시아(타히티)']",
+          "refund_country_FJD_xpath": "//android.widget.TextView[@text='피지']",
+          "refund_country_AUD_xpath": "//android.widget.TextView[@text='호주']",
+          "refund_country_ZAR_xpath": "//android.widget.TextView[@text='남아공']",
+          "refund_country_MUR_xpath": "//android.widget.TextView[@text='모리셔스']",
+          "refund_country_EGP_xpath": "//android.widget.TextView[@text='이집트']",
+          "refund_country_KES_xpath": "//android.widget.TextView[@text='케냐']",
+          "refund_country_NPR_xpath": "//android.widget.TextView[@text='네팔']",
+          "refund_country_TWD_xpath": "//android.widget.TextView[@text='대만']",
+          "refund_country_KRW_xpath": "//android.widget.TextView[@text='대한민국']",
+          "refund_country_LAK_xpath": "//android.widget.TextView[@text='라오스']",
+          "refund_country_MOP_xpath": "//android.widget.TextView[@text='마카오']",
+          "refund_country_MYR_xpath": "//android.widget.TextView[@text='말레이시아']",
+          "refund_country_MNT_xpath": "//android.widget.TextView[@text='몽골']",
+          "refund_country_VND_xpath": "//android.widget.TextView[@text='베트남']",
+          "refund_country_SAR_xpath": "//android.widget.TextView[@text='사우디아라비아']",
+          "refund_country_SGD_xpath": "//android.widget.TextView[@text='싱가포르']",
+          "refund_country_AED_xpath": "//android.widget.TextView[@text='아랍에미리트']",
+          "refund_country_UZS_xpath": "//android.widget.TextView[@text='우즈베키스탄']",
+          "refund_country_INR_xpath": "//android.widget.TextView[@text='인도']",
+          "refund_country_IDR_xpath": "//android.widget.TextView[@text='인도네시아']",
+          "refund_country_JPY_xpath": "//android.widget.TextView[@text='일본']",
+          "refund_country_CNY_xpath": "//android.widget.TextView[@text='중국']",
+          "refund_country_KZT_xpath": "//android.widget.TextView[@text='카자흐스탄']",
+          "refund_country_QAR_xpath": "//android.widget.TextView[@text='카타르']",
+          "refund_country_KHR_xpath": "//android.widget.TextView[@text='캄보디아']",
+          "refund_country_THB_xpath": "//android.widget.TextView[@text='태국']",
+          "refund_country_PHP_xpath": "//android.widget.TextView[@text='필리핀']",
+          "refund_country_HKD_xpath": "//android.widget.TextView[@text='홍콩']"
+        }
+      ],
+      "number3": [{}]
+    }
+  ],
+  "card": [
+    {
+      "number1": [
+        {
+          "create_a_wallet_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/btn_make_wallet\"]",
+          "create_a_wallet_text": "월렛 만들기",
+
+          "create2_a_wallet_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/btnNext\"]",
+          "create2_a_wallet_text": "월렛 만들기",
+
+          "card_password_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tv_password\"]",
+          "card_password_number_0_xpath": "//android.widget.TextView[@text=\"0\"]",
+          "card_password_number_1_xpath": "//android.widget.TextView[@text=\"1\"]",
+
+          "card_full_agreement_xpath": "//android.widget.TextView[@text=\"전체동의\"]",
+
+          "card_complete_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btn_apply\"]",
+          "card_complete_text": "완료",
+
+          "card_application_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btn_card_issue\"]",
+          "card_application_text": "(실물)카드 신청",
+
+          "card_application2_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/btnNext\"]",
+          "card_application2_text": "(실물)카드 신청",
+
+          "card_complete_next_xpath": "//android.widget.FrameLayout[@resource-id=\"com.mobiletoong.travelwallet:id/twb_complete\"]/android.widget.LinearLayout",
+          "card_complete_next_text": "다음",
+
+          "card_application_banner_xpath": "//XCUIElementTypeStaticText[@name=\"해외여행 떠나기 전에\"]",
+
+          "card_application_completed_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btn_apply\"]",
+          "card_application_completed_text": "신청 완료",
+
+          "card_close_button_xpath": "//android.widget.ImageView[@resource-id=\"com.mobiletoong.travelwallet:id/iv_close\"]",
+          
+          "card_close_button_text": "닫기",
+
+          "card_cancel_application_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tv_text\" and @text=\"신청 취소\"]",
+          "card_cancel_application_text": "신청 취소",
+
+          "card_cancel_application_popup_xpath": "//android.widget.Button[@resource-id=\"com.mobiletoong.travelwallet:id/btnRButton\"]",
+          "card_cancel_application_popup_text": "신청 취소 팝업",
+
+          "card_empty_view_text_xpath": "//android.widget.TextView[@text=\"보유중인 카드가 없습니다.\"]",
+          "card_empty_view_text_text": "보유중인 카드가 없습니다.",
+
+          "card_back_button_xpath": "//android.widget.ImageView[@resource-id=\"com.mobiletoong.travelwallet:id/btnPrev\"]",
+          "card_back_button_text": "뒤로가기"
+        }
+      ]
+    }
+  ],
+  "my": [
+    {
+      "number1": [
+        {
+          "my_tab_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/navigation_bar_item_small_label_view\" and @text=\"마이\"]",
+          "my_tab_text": "마이",
+
+          "my_card_management_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/tv_title\" and @text=\"카드관리\"]",
+          "my_card_management_text": "카드관리"
+        }
+      ]
+    }
+  ],
+  "pay": [
+    {
+      "number1": [
+        {
+          "pay_tab_xpath": "//android.widget.TextView[@resource-id=\"com.mobiletoong.travelwallet:id/navigation_bar_item_small_label_view\" and @text=\"페이\"]",
+          "pay_tab_text": "페이"
+        }
+      ]
+    }
+  ],
+  "mypage": [
+    {
+      "number1": {
+        "my_tab_xpath": "//android.widget.FrameLayout[@content-desc='더보기']",
+        "my_info_manage_xpath": "//android.widget.FrameLayout[@resource-id='com.mobiletoong.travelwallet:id/btn_manage_my_info']",
+        "englishName_complete_xpath": "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/btnComplete']",
+        "address_complete_xpath": "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/btn_complete']",
+        "confirm_xpath": "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/txtConfirm']",
+        "update_EnglishName_xpath": "(//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/tv_modification'])[1]",
+        "update_Korean_Address_xpath": "(//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/tv_modification'])[2]",
+        "update_English_Address_xpath": "(//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/tv_modification'])[3]",
+        "delete_button_xpath": "//android.widget.ImageView[@resource-id='com.mobiletoong.travelwallet:id/img_clear']"
+      },
+      "number2": {
+        "text_xpath": "//android.widget.TextView",
+        "EnglishName_xpath": "//android.widget.LinearLayout[@resource-id='com.mobiletoong.travelwallet:id/ll_user_info']/android.view.ViewGroup[4]",
+        "Korean_Address_xpath": "//android.widget.LinearLayout[@resource-id='com.mobiletoong.travelwallet:id/ll_user_info']/android.view.ViewGroup[5]",
+        "English_Address_xpath": "//android.widget.LinearLayout[@resource-id='com.mobiletoong.travelwallet:id/ll_user_info']/android.view.ViewGroup[6]"
+      },
+
+      "number3": {
+        "textfield_1_xpath": "(//android.widget.EditText[@resource-id='com.mobiletoong.travelwallet:id/et_input'])[1]",
+        "textfield_2_xpath": "(//android.widget.EditText[@resource-id='com.mobiletoong.travelwallet:id/et_input'])[2]",
+        "textfield_3_xpath": "(//android.widget.EditText[@resource-id='com.mobiletoong.travelwallet:id/et_input'])[3]",
+        "textfield_4_xpath": "(//android.widget.EditText[@resource-id='com.mobiletoong.travelwallet:id/et_input'])[4]"
+      }
+    }
+  ],
+  "foreign_currency_exchange": [
+    {
+      "number1": [
+        {
+        "foreign_currency_exchange_xpath": "//android.widget.ImageView[@resource-id='com.mobiletoong.travelwallet:id/iv_foreign_exchange']",
+        "total_amount_of_foreign_currency_exchange_xpath": "//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/tvFromBalance']",
+        "foreign_currency_exchange_country_xpath": "//android.widget.ImageView[@resource-id='com.mobiletoong.travelwallet:id/ivSelectToCurrency']",
+        "exchange_button_xpath": "//android.widget.Button[@resource-id='com.mobiletoong.travelwallet:id/btnConfirm']",
+        "exchange_pass_fail_xpath": "//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/tvMain']",
+        "reason_exchange_pass_fail_xpath": "//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/tvSub']",
+        "final_confirmation_button_for_foreign_currency_exchange_xpath": "//android.widget.TextView[@resource-id='com.mobiletoong.travelwallet:id/btDone']"
+        }
+      ]
+    }
+  ]
+}
